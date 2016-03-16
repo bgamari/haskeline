@@ -37,7 +37,7 @@ import System.Console.Haskeline.Backend.Posix.Encoder
 
 #if __GLASGOW_HASKELL__ >= 611
 import GHC.IO.FD (fdFD)
-import Data.Dynamic (cast)
+import Data.Typeable (cast)
 import System.IO.Error
 import GHC.IO.Exception
 import GHC.IO.Handle.Types hiding (getState)
